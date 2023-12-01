@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Java Documentation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav id="navbar">
+    <header>Java Documentation</header>
+    <ul>
+      <li><a class="nav-link" href="#Starting_With_Java">Starting With Java</a></li>
+      <li><a class="nav-link" href="#Java_Entry_Point">Java Entry Point</a></li>
+      <li><a class="nav-link" href="#Printing_to_the_console">Printing to the console</a></li>
+      <li><a class="nav-link" href="#Declaring_Function">Declaring Function</a></li>
+      <li><a class="nav-link" href="#Object_Oriented_Programming">Object Oriented Programming</a></li>
+    </ul>
+  </nav>
+
+  <main id="main-doc">
+    <section id="Starting_With_Java" class="main-section">
+      <header>Starting With Java</header>
+      <p>Steps in getting started</p>
+      <ol>
+        <li>Download Java</li>
+        <li>Download Java SDK</li>
+        <li>Get an Integrated Development Environment (IDE)</li>
+        <li>Start a project within the IDE</li>
+        <li>Code up "Hello World" and run the code</li>
+      </ol>
+      <p></p>
+      <code></code>
+    </section>
+
+    <section class="main-section" id="Java_Entry_Point">
+      <header>Java Entry Point</header>
+      <p>It is categorized by its (string[]arg) as a parameter to the function</p>
+      <p>
+      <pre>
+        <code>
+public class MyMainFunction {
+  /* Java main function example */
+  public static void main(String[] args) {
+    System.out.println("Hello World");
+  }
+}
+        </code>
+      </pre>
+      <p>In this example, we are printing out "Hello world" to the console when we run the program.</p>
+    </section>
+
+    <section class="main-section" id="Printing_to_the_console">
+      <header>Printing to the console</header>
+      <p>Printing to the console</p>
+      <code></code>
+    </section>
+
+    <section class="main-section" id="Declaring_Function">
+      <header>Declaring Function</header>
+      <p>Functions are actually called methods in Java. Here is an example of how to declare a Java method.</p>
+      <img src="https://3.bp.blogspot.com/-LzU6mkUXL7Q/V88QxwRH-5I/AAAAAAAAAVA/obApApuCmjM3Q2zjaryMMfl5hqrTDVIRACLcB/s1600/java-method-structure.png" alt="java-method" class="image"/>
+      <pre>
+        <code>
+public static void myFunction(String name, int age) {
+  // function code
+}
+        </code>
+      </pre>
+    </section>
+
+    <section class="main-section" id="Object_Oriented_Programming">
+      <header>Object Oriented Programming</header>
+      <p>Java is known as an object oriented programming language.</p>
+      <p>This means that it is easy to represent entities as objects by using classes and encapsulation.</p>
+      <p>An example of this might be a student class to represent a student.</p>
+      <pre>
+        <code>
+public class Student {
+  /* Student properties */
+  private String name;
+  private int age;
+
+  /* Constructor */
+  public Student(String name, int age) {
+    this.name = name;
+    this.age = age;
+  }
+
+  /* Getter method */
+  public String getName() {
+    return name;
+  }
+
+  /* Setter method */
+  public void setName(String name) {
+    this.name = name;
+  }
+}
+        </code>
+      </pre>
+    </section>
+  </main>
+</body>
+</html>
